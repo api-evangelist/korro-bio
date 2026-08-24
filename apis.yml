@@ -1,17 +1,39 @@
 aid: korro-bio
 name: Korro Bio
-description: 'Korro Bio is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Korro Bio, Inc. (Nasdaq: KRRO) is a Cambridge, Massachusetts clinical-stage biopharmaceutical
+  company developing a new class of genetic medicines based on programmable RNA editing. Its
+  proprietary OPERA (Oligonucleotide Promoted Editing of RNA) platform pairs data-driven
+  oligonucleotide design and machine-learning optimization with linker chemistry and
+  tissue-directed delivery to recruit the body's own ADAR enzymes and make a precise, transient
+  single-base edit to a native mRNA transcript — editing RNA rather than DNA so the change is
+  tunable and reversible. The company was created and incubated by Atlas Venture with New
+  Enterprise Associates in October 2019, raised a $91.5M Series A and a $116M Series B, and became
+  public in 2023 through a merger with Frequency Therapeutics alongside a $117M private placement.
+  Its pipeline targets liver and central nervous system indications and includes KRRO-110 (the
+  REWRITE Phase 1/2a study in alpha-1 antitrypsin deficiency), KRRO-111 and KRRO-121, which holds
+  EMA orphan drug designation for urea cycle disorders. Korro Bio sells therapeutics, not software:
+  it operates no developer program, publishes no API, SDK or machine-readable specification, and
+  maintains no public source-code organization.
 url: https://raw.githubusercontent.com/api-evangelist/korro-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
-specificationVersion: '0.20'
+x-tier: profiled
+x-tier-reason: enrichment-pipeline
+specificationVersion: '0.23'
 created: '2026-08-23'
 modified: '2026-08-23'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- RNA Editing
+- Genetic Medicine
+- Drug Discovery
+- Life Sciences
+- Clinical Trials
+- Rare Disease
+- Research
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +41,45 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/korro-bio-domain-security.yml
 - type: Website
+  url: https://korrobio.com/
+- type: InvestorRelations
+  url: https://ir.korrobio.com/
+- type: Careers
+  url: https://korrobio.com/careers/
+- type: TermsOfService
+  url: https://korrobio.com/terms-conditions/
+- type: PrivacyPolicy
+  url: https://korrobio.com/privacy-policy/
+- type: SecondaryMarket
   url: https://forgeglobal.com/korro-bio_stock/
+x-enrichment:
+  date: '2026-08-23'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Korro Bio is a clinical-stage RNA-editing biopharmaceutical company (Nasdaq: KRRO) whose
+    product is a drug pipeline, not software — there is no developer program, no API, no SDK on
+    npm or PyPI and no GitHub organization; korrobio.com is a WordPress marketing site that
+    answers every path, including the root, with a SiteGround robot-challenge (HTTP 202), and
+    api./dev./docs./developer./mcp. are wildcard DNS to the same address rather than real hosts.
+  evidence:
+  - url: https://korrobio.com/
+    status: 202
+  - url: https://korrobio.com/openapi.json
+    status: 202
+  - url: https://ir.korrobio.com/.well-known/security.txt
+    status: 404
+  - url: https://ir.korrobio.com/llms.txt
+    status: 404
+  - url: https://ir.korrobio.com/
+    status: 200
+  - url: https://api.github.com/search/users?q=korro+bio
+    status: 200
+  checked: '2026-08-23'
