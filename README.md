@@ -64,5 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Korro Bio is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/korro-bio_stock/
+Korro Bio, Inc. (Nasdaq: KRRO) is a Cambridge, Massachusetts clinical-stage biopharmaceutical company developing a new class of genetic medicines based on programmable RNA editing. Its proprietary OPERA (Oligonucleotide Promoted Editing of RNA) platform pairs data-driven oligonucleotide design and machine-learning optimization with linker chemistry and tissue-directed delivery to recruit the body's own ADAR enzymes and make a precise, transient single-base edit to a native mRNA transcript — editing RNA rather than DNA so the change is tunable and reversible. The company was created and incubated by Atlas Venture with New Enterprise Associates in October 2019, raised a $91.5M Series A and a $116M Series B, and became public in 2023 through a merger with Frequency Therapeutics alongside a $117M private placement. Its pipeline targets liver and central nervous system indications and includes KRRO-110 (the REWRITE Phase 1/2a study in alpha-1 antitrypsin deficiency), KRRO-111 and KRRO-121, which holds EMA orphan drug designation for urea cycle disorders. Korro Bio sells therapeutics, not software: it operates no developer program, publishes no API, SDK or machine-readable specification, and maintains no public source-code organization.
+
+**Areas:** Company · Biotechnology · Pharmaceuticals · RNA Editing · Genetic Medicine · Drug Discovery · Life Sciences · Clinical Trials · Rare Disease · Research
+
+## Korro Bio on APIs.io
+
+Everything profiled for Korro Bio is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/korro-bio/](https://apis.io/providers/korro-bio/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Korro Bio Domain Security](https://apis.io/security/korro-bio/korro-bio-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://korrobio.com/)
+- [Terms of service](https://korrobio.com/terms-conditions/)
+- [Privacy policy](https://korrobio.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 3.4** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 44.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/korro-bio/](https://apis.io/providers/korro-bio/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Korro Bio: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/korro-bio/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
